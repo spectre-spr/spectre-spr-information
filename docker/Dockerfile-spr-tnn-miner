@@ -1,0 +1,17 @@
+FROM ubuntu:22.04
+ENV TZ Asia/Shanghai
+USER root
+
+RUN apt update && apt install -y wget unzip 
+
+WORKDIR /app
+RUN wget https://gitee.com/muaimingjun/qubic-docker/releases/download/v0.3.6/tnn-miner.tar.gz && tar -zxvf tnn-miner.tar.gz
+RUN mv tnn-miner/tnn-miner tnn-miner && rm -fr tnn-miner.tar.gz tnn-miner/
+
+ENV w="spectre:qpxgrp8wvmrd49guzkwptkece2257ax8pfwpexhv453la3rpcnwkxha07jzvg"
+ENV s="127.0.0.1"
+ENV p=5555
+ENV t=10
+ENV name=000
+# CMD sh -c "./miner -a ${w} -s ${s} -t ${t} -p ${p}"
+CMD sh -c "./tnn-miner --spectre --daemon-address ${s} --port ${p} --wallet ${w} --threads ${t} --worker-name ${name} --dev-fee 1"

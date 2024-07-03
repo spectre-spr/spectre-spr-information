@@ -1,0 +1,1 @@
+spectre-miner-v0.3.16-win64-amd64.exe  -s 节点IP地址  -a 钱包 -t 线程数量（cpu多少核心设置多少）

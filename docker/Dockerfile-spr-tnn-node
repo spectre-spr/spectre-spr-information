@@ -1,0 +1,14 @@
+FROM ubuntu:22.04
+ENV TZ Asia/Shanghai
+USER root
+
+RUN apt update && apt install -y wget unzip 
+
+WORKDIR /app
+RUN wget https://spectre-network.org/downloads/archive/spr_bridge-v0.3.14-linux-x86_64.zip && unzip spr_bridge-v0.3.14-linux-x86_64.zip
+RUN mv bin/* . && rm -fr bin spr_bridge-v0.3.14-linux-x86_64.zip
+ENV server="0.0.0.0:18110"
+EXPOSE 5555
+EXPOSE 2114
+# CMD sh -c "./miner -a ${w} -s ${s} -t ${t} -p ${p}"
+CMD sh -c "./spr_bridge -spectre ${server}"
