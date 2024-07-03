@@ -10,6 +10,8 @@ github: [Spectre (github.com)](https://github.com/spectre-project)
 
 twitter: https://twitter.com/SpectreNetwrk
 
+收益计算器: https://spectre-network.org/#miningrewardcalculator
+
 ## 挖矿
 
 hivos 配置文件 ：https://gitee.com/muaimingjun/qubic-docker/releases/download/v0.3.6/hive-os_spr_pool.json
