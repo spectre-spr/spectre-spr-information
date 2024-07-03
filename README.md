@@ -44,5 +44,5 @@ https://tw-pool.com/
 
 ###    spectre:qqsxlp2hpnpdzs3ur0sdjv6x479ywj92a0gfu6vlwahetz3n3mz2u8j3fwgwd
 
-![](./docker/微信截图_20240703173925.png)
+![打赏](https://github.com/hyh1750522171/spectre-spr-information/blob/main/docker/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240703173925.png)
 
