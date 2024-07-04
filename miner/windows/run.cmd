@@ -1,1 +1,2 @@
-spectre-miner-v0.3.16-win64-amd64.exe  -s 节点IP地址  -a 钱包 -t 线程数量（cpu多少核心设置多少）
+Tnn-miner.exe --spectre --daemon-address 网桥ip --port 5555 --wallet 钱包地址 --threads 线程数量（根据自己核心数量）
+

@@ -1,4 +1,4 @@
 chmod +x tnn-miner
 
-./tnn-miner  --spectre --daemon-address 124.220.42.103  --port 5555 --wallet spectre:qpxgrp8wvmrd49guzkwptkece2257ax8pfwpexhv453la3rpcnwkxha07jzvg --threads 4 --worker-name kilin990
+./tnn-miner  --spectre --daemon-address 网桥ip  --port 5555 --wallet 钱包地址 --threads 线程数量（跟核心数量一样） --worker-name 矿工名称
 

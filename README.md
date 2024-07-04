@@ -12,11 +12,24 @@ twitter: https://twitter.com/SpectreNetwrk
 
 收益计算器: https://spectre-network.org/#miningrewardcalculator
 
+## 节点
+
+选择节点文件夹运行cmd脚本：
+
+* 第一步运行节点
+* 第二步运行网桥。
+
+
+
 ## 挖矿
 
-hivos 配置文件 ：https://gitee.com/muaimingjun/qubic-docker/releases/download/v0.3.6/hive-os_spr_pool.json
+windows挖矿：[spectre-spr-information/miner/windows at main · hyh1750522171/spectre-spr-information (github.com)](https://github.com/hyh1750522171/spectre-spr-information/tree/main/miner/windows)
+
+hivos 配置文件 ：https://gitee.com/muaimingjun/qubic-docker/releases/download/v0.3.6/hive-os_spr_pool.json **记得更改网桥地址**
 
 linux 挖矿: [spectre-spr-information/miner/linux at main · hyh1750522171/spectre-spr-information (github.com)](https://github.com/hyh1750522171/spectre-spr-information/tree/main/miner/linux)   下载这里面两个文件，修改run.sh 文件里面内容。
+
+
 
 ## 交易所
 
@@ -27,8 +40,6 @@ linux 挖矿: [spectre-spr-information/miner/linux at main · hyh1750522171/spec
 
 
 ## 矿池
-
-http://95.174.93.196:3000/d/spectre_pool/spectre-pool
 
 https://tw-pool.com/
 

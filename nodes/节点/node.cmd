@@ -1,0 +1,1 @@
+spectred.exe -b data
