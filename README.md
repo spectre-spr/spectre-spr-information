@@ -16,6 +16,10 @@ twitter: https://twitter.com/SpectreNetwrk
 
 选择节点文件夹运行cmd脚本：
 
+如果觉得节点同步慢可以在这里下载它解压覆盖掉data目录下面：https://spectre-network.org/downloads/legacy/datadir-rust.zip
+
+
+
 * 第一步运行节点
 * 第二步运行网桥。
 

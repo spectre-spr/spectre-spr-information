@@ -1,0 +1,24 @@
+version: '3.8'  # 使用适当的 Docker Compose 版本
+
+services:
+  spectred-node:
+    image: itgpt/spr-rust-node:latest
+    container_name: spectred-node
+    restart: always
+    ports:
+      - "18111:18111"  # 根据需要暴露端口
+      - "18110:18110"
+    volumes:
+      - ~/.rusty-spectre:/root/.rusty-spectre  # 根据需要挂载卷
+
+  spectrebridge:
+    image: itgpt/spr-tnn-node:latest
+    container_name: spectrebridge
+    restart: always
+    ports:
+      - "5555:5555"
+      - "2114:2114"
+    environment:
+      server: "spectred-node:18110"  # 连接到 spectred-node 的 18110 端口
+    depends_on:
+      - spectred-node  # 确保 spectred-node 容器先启动
