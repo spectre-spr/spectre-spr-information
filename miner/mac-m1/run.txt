@@ -1,0 +1,3 @@
+chmod +x tnn-miner
+
+./tnn-miner  --spectre --daemon-address xxx.xxx.xxx.xxx  --port 5555 --wallet spectre:qpxgrp8wvmrd49guzkwptkece2257ax8pfwpexhv453la3rpcnwkxha07jzvg --threads 10 --worker-name mac-m1
