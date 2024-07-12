@@ -43,18 +43,6 @@ linux 挖矿: [spectre-spr-information/miner/linux at main · hyh1750522171/spec
 
 
 
-## 矿池
-
-https://tw-pool.com/
-
-## 算力表格
-
-算力提交表格：https://oqkx1gsk1t6.feishu.cn/share/base/query/shrcnZzftMIOOoeiIll6Kg5T4rg
-
-算力表格: https://oqkx1gsk1t6.feishu.cn/base/KjYlbJwDwaTWA8suy7ZcYZkLndS?from=from_copylink
-
-
-
 ##  打赏
 
 ###    spectre:qqsxlp2hpnpdzs3ur0sdjv6x479ywj92a0gfu6vlwahetz3n3mz2u8j3fwgwd
