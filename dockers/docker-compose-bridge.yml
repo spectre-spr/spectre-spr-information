@@ -1,0 +1,30 @@
+volumes:
+  prometheus_data: {}
+services:
+  spr_node:
+    image: itgpt/spr-rust-node:latest
+    #image: itgpt/spr-tnn-node:latest
+    container_name: spr-node
+    restart: unless-stopped
+    user: "0"
+    volumes:
+      - ./node-data/.rusty-spectre:/root/.rusty-spectre
+    ports:
+      - 18111:18111
+      - 18110:18110
+    extra_hosts:
+      - host.docker.internal:host-gateway
+  spr_bridge:
+    image: itgpt/spr_bridge:latest
+    #image: itgpt/spr-tnn-node:latest
+    container_name: spr_bridge
+    restart: unless-stopped
+    user: "0"
+    command:
+      - '-stats=false'
+      - '-spectre=host.docker.internal:18110'
+    ports:
+      - 5555:5555
+      - 2114:2114
+    extra_hosts:
+      - host.docker.internal:host-gateway
