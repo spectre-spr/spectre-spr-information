@@ -8,7 +8,7 @@ services:
     restart: unless-stopped
     user: "0"
     volumes:
-      - ~/.rusty-spectre:/root/.rusty-spectre
+      - ./node-data/.rusty-spectre:/root/.rusty-spectre
     ports:
       - 18111:18111
       - 18110:18110
