@@ -25,7 +25,7 @@ twitter: https://twitter.com/SpectreNetwrk
 
 ## 挖矿
 
-- 锄头：[spr-锄头 ](https://gitee.com/muaimingjun/spectre-spr-information/releases/tag/v0.3.6)
+- 锄头：[spr-锄头 ](https://gitee.com/muaimingjun/spectre-spr-information/releases/tag/v0.3.6.1)
 
 **注意文件里面要更改自己的网桥ip端口号还有自己的钱包地址，根据自己机器实际情况更改线程数量，和自己矿机名称。**
 
