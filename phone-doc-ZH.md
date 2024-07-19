@@ -27,7 +27,7 @@ apt install -y wget
 wget https://gitee.com/muaimingjun/spectre-spr-information/releases/download/v0.3.6/Tnn-miner-arm64-phone   # 下载锄头
 
 chmod +x Tnn-miner*  # 添加可执行权限
-./Tnn-miner-arm64-phone --spectre --daemon-address xxx.xxx.xxx.xxx  --port  5555 --wallet spectre:qpxgrp8wvmrd49guzkwptkece2257ax8pfwpexhv453la3rpcnwkxha07jzvg --threads 8
+./Tnn-miner-arm64-phone --spectre --daemon-address xxx.xxx.xxx.xxx  --port  5555 --wallet spectre:xxxxxxxxxxxxxxxxxxxxxxxxxg --threads 8
 
 ```
 
