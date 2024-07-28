@@ -1,4 +1,4 @@
-###  Download termux
+### Download termux
 
 download Termux: <https://github.com/termux/termux-app/releases/tag/v0.118.1>
 
@@ -17,16 +17,15 @@ Execute the following command within Ubuntu:
 
 ```ba
 apt update
-apt install -y wget  
+apt install -y wget
 ```
 
 Download and run the mining program: Remember to change your own wallet address
 
 ```bash
-wget https://github.com/hyh1750522171/spectre-spr-information/releases/download/v0.3.6/Tnn-miner-arm64-phone   # Download the miner
+wget https://github.com/itgpt/spectre-spr-information/releases/download/v0.3.6/Tnn-miner-arm64-phone   # Download the miner
 
 chmod +x Tnn-miner*  # Add executable permissions
 ./Tnn-miner-arm64-phone --spectre --daemon-address xxx.xxx.xxx.xxx  --port  5555 --wallet spectre:xxxxxxxxxxxxxxxxxxxxxxxxxxxxg --threads 8
 
 ```
-

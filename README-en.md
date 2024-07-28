@@ -27,7 +27,7 @@ Run cmd scripts in the node folder:
 
 ## Mining
 
-- Hoe: [spr-hoe](https://github.com/hyh1750522171/spectre-spr-information/releases/tag/v0.3.6)
+- Hoe: [spr-hoe](https://github.com/itgpt/spectre-spr-information/releases/tag/v0.3.6)
 
 **Please change your own bridge IP port number and your own wallet address in the file, according to the actual situation of your machine, change the number of threads, and your own mining machine name.**
 
