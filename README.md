@@ -27,6 +27,14 @@ twitter: https://twitter.com/SpectreNetwrk
 
 - 锄头：[spr-锄头 ](https://gitee.com/muaimingjun/spectre-spr-information/releases/tag/v0.3.6.1)
 
+- 锄头运行参数
+
+  ```bash
+  tnn-miner* --spectre --daemon-address node-ip  --port  5555 --wallet spectre:qxxxxxxxxxg --threads 10 --worker-name 矿工名称
+  ```
+
+  ​
+
 **注意文件里面要更改自己的网桥ip端口号还有自己的钱包地址，根据自己机器实际情况更改线程数量，和自己矿机名称。**
 
 ## 交易所
