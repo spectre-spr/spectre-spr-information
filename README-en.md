@@ -4,7 +4,9 @@
 
 Official Website: [Spectre Network: Fast, Private, Decentralized Blockchain (spectre-network.org)](https://spectre-network.org/)
 
-Wallet: [Spectre Wallet (spectre-network.org)](https://wallet.spectre-network.org/)
+web Wallet: [Spectre Wallet (spectre-network.org)](https://wallet.spectre-network.org/)
+
+phone wallet: [Release v0.3.15 · spectre-project/spectre-mobile (github.com)](https://github.com/spectre-project/spectre-mobile/releases/tag/v0.3.15)
 
 Explorer: <https://explorer.spectre-network.org/>
 

@@ -2,7 +2,9 @@
 
 官方网站：[Spectre Network: Fast, Private, Decentralized Blockchain (spectre-network.org)](https://spectre-network.org/)
 
-钱包：[Spectre Wallet (spectre-network.org)](https://wallet.spectre-network.org/)
+web钱包（推荐）：[Spectre Wallet (spectre-network.org)](https://wallet.spectre-network.org/)
+
+手机钱包: [Release v0.3.15 · spectre-project/spectre-mobile (github.com)](https://github.com/spectre-project/spectre-mobile/releases/tag/v0.3.15)
 
 资源管理器：https://explorer.spectre-network.org/
 
