@@ -25,6 +25,20 @@ twitter: https://twitter.com/SpectreNetwrk
 * 第三步 进入node文件夹，选择节点运行脚本
 * 第四步选择网桥 运行脚本
 
+### linux 节点
+
+*  安装docker 和 docker compose 这里推荐 使用1panel
+
+  [在线安装 - 1Panel 文档](https://1panel.cn/docs/installation/online_installation/)
+
+* 下载 docker comose 文件
+
+* [docker comose](./dockers/docker-compose-bridge.yml)
+
+* 然后复制到 1panal 容器编排里面设置容器名称即可
+
+* ​
+
 ## 挖矿
 
 这里推荐使用tnn锄头，因为算力确实增加很多
