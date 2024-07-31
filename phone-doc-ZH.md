@@ -7,7 +7,7 @@
 ```bash
 apt update
 apt upgrade -y
-apt install -y git proot proot-distro wget curl
+apt install -y  proot proot-distro 
 proot-distro install ubuntu  # 安装ubuntu系统
 proot-distro login ubuntu   # 登录ubuntu系统
 ```
@@ -18,7 +18,7 @@ proot-distro login ubuntu   # 登录ubuntu系统
 
 ```bash
 apt update
-apt install -y wget  
+apt install -y wget 
 ```
 
 下载并运行挖矿程序: 记得更改自己钱包
