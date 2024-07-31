@@ -4,7 +4,7 @@
 
 web钱包（推荐）：[Spectre Wallet (spectre-network.org)](https://wallet.spectre-network.org/)
 
-手机钱包: [Release v0.3.15 · spectre-project/spectre-mobile (github.com)](https://github.com/spectre-project/spectre-mobile/releases/tag/v0.3.15)
+手机钱包: [Release v0.3.15 · spectre-project/spectre-mobile (github.com)](https://github.com/spectre-project/spectre-mobile/releases)  温馨提示：手机钱包下载下来，不要使用vpn否则钱包不会同步
 
 资源管理器：https://explorer.spectre-network.org/
 
