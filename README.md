@@ -76,9 +76,11 @@ docker run -itd --name spr  --restart=always   -e w=spectre:xxxxxxxxxxxxxxxxxxxx
 
 ## 交易所
 
-[Trade SPR with USDT : NonKYCcryptocurrency exchange](https://nonkyc.io/market/SPR_USDT)
+注册交易所
 
-[Exbitron](https://exbitron.com/trade?market=SPR-USDT)
+* 如果您没有注册请使用我的推荐链接非常感谢您 ： https://nonkyc.io?ref=664caf26103e9be1dd7b5320  
+* 交易所币地址： [Trade SPR with USDT : NonKYCcryptocurrency exchange](https://nonkyc.io/market/SPR_USDT)
+* 交易所： [Exbitron](https://exbitron.com/trade?market=SPR-USDT)
 
  
 
