@@ -35,7 +35,7 @@ twitter: https://twitter.com/SpectreNetwrk
 ```
 #### 算力
 
-![本地路径](img\F18BE05112CD3183E527B50D6C2CCBE3.png)
+![本地路径](img/F18BE05112CD3183E527B50D6C2CCBE3.png)
 
 
 - 锄头：[spr-官方-社区税 1%](https://github.com/spectre-project/spectre-miner/releases/tag/v0.3.16)
@@ -46,7 +46,7 @@ twitter: https://twitter.com/SpectreNetwrk
 
   ```
 #### 算力
-![本地路径](img\4A9F4A66B14A1561F5AB9C3D45633C97.png)
+![本地路径](img/4A9F4A66B14A1561F5AB9C3D45633C97.png)
 
   ​
 
