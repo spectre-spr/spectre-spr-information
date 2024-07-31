@@ -33,7 +33,7 @@ twitter: https://twitter.com/SpectreNetwrk
 ```bash
   tnn-miner* --spectre --daemon-address node-ip  --port  5555 --wallet spectre:qxxxxxxxxxg --threads 10 --worker-name 矿工名称
 ```
-#### 算力
+#### tnn锄头算力
 
 ![本地路径](img/F18BE05112CD3183E527B50D6C2CCBE3.png)
 
@@ -44,13 +44,21 @@ twitter: https://twitter.com/SpectreNetwrk
   
 ./spectre-miner-v0.3.16-linux-gnu-amd64 --mining-address  spectre:xxxxxxx  -s x.x.x.x -p xxxx
 
-  ```
-#### 算力
+```
+#### 官方锄头算力
 ![本地路径](img/4A9F4A66B14A1561F5AB9C3D45633C97.png)
 
-  ​
+  
 
-**注意文件里面要更改自己的网桥ip端口号还有自己的钱包地址，根据自己机器实际情况更改线程数量，和自己矿机名称。**
+### docker  运行 挖矿程序 支持 (x86_64 /  arm64)
+
+```bash
+docker run -itd --name spr  --restart=always   -e w=spectre:xxxxxxxxxxxxxxxxxxxxxxxx  -e s=192.168.2.3 -e p=5555 -e t=30 -e name=02 itgpt/tnn-miner:latest
+```
+
+
+
+注意文件里面要更改自己的网桥ip端口号还有自己的钱包地址，根据自己机器实际情况更改线程数量，和自己矿机名称。**
 
 ## 交易所
 
