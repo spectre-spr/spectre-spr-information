@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+    tnn-miner:
+        image: 'itgpt/tnn-miner:latest'
+        environment:
+            - name=001
+            - p=5555
+            - t=30
+            - s=127.0.0.1
+            - w=sprxxxxxxx
+        restart: always
+        tty: true
+        stdin_open: true
