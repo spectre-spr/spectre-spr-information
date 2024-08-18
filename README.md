@@ -43,7 +43,7 @@ twitter: https://twitter.com/SpectreNetwrk
 
 这里推荐使用tnn锄头，因为算力确实增加很多
 
-- 锄头：[spr-tnn-开发者2.5%](https://gitee.com/muaimingjun/spectre-spr-information/releases/tag/v0.3.6.1)
+- 锄头：[spr-tnn-开发者2.5%](https://gitee.com/muaimingjun/spectre-spr-information/releases/tag/v0.4.0-dev)
 ```bash
   tnn-miner* --spectre --daemon-address node-ip  --port  5555 --wallet spectre:qxxxxxxxxxg --threads 10 --worker-name 矿工名称
 ```
