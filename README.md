@@ -51,11 +51,10 @@ https://spectre-network.org/downloads/legacy/datadir-rust.zip
 
 这里推荐使用tnn锄头，因为算力确实增加很多
 
-<<<<<<< HEAD
 - 锄头：[Release v0.4.0-dev · spectre-spr/spectre-spr-information (github.com)](https://github.com/spectre-spr/spectre-spr-information/releases/tag/v0.4.0-dev)
-=======
+  =======
 - 锄头：[spr-tnn-开发者2.5%](https://gitee.com/muaimingjun/spectre-spr-information/releases/tag/v0.4.0-dev)
->>>>>>> 80a2792c5ef1563c0cea2b126ca8f7d27fecdf35
+
 ```bash
   tnn-miner* --spectre --daemon-address node-ip  --port  5555 --wallet spectre:qxxxxxxxxxg --threads 10 --worker-name 矿工名称
 ```
