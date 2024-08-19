@@ -51,7 +51,11 @@ https://spectre-network.org/downloads/legacy/datadir-rust.zip
 
 这里推荐使用tnn锄头，因为算力确实增加很多
 
+<<<<<<< HEAD
 - 锄头：[Release v0.4.0-dev · spectre-spr/spectre-spr-information (github.com)](https://github.com/spectre-spr/spectre-spr-information/releases/tag/v0.4.0-dev)
+=======
+- 锄头：[spr-tnn-开发者2.5%](https://gitee.com/muaimingjun/spectre-spr-information/releases/tag/v0.4.0-dev)
+>>>>>>> 80a2792c5ef1563c0cea2b126ca8f7d27fecdf35
 ```bash
   tnn-miner* --spectre --daemon-address node-ip  --port  5555 --wallet spectre:qxxxxxxxxxg --threads 10 --worker-name 矿工名称
 ```
@@ -86,7 +90,9 @@ docker run -itd --name spr  --restart=always   -e w=spectre:xxxxxxxxxxxxxxxxxxxx
 
 注册交易所
 
-* 如果您没有注册请使用我的推荐链接非常感谢您 ： https://nonkyc.io?ref=664caf26103e9be1dd7b5320  
+* 如果您没有注册 nonkyc 请使用我的推荐链接非常感谢您 ： https://nonkyc.io?ref=664caf26103e9be1dd7b5320
+* 如果您没有注册 xeggex 请使用我的推荐链接非常感谢您：https://xeggex.com?ref=65f6b77cabe5789e24b76aff
+* 交易所:  [xeggex](https://xeggex.com/market/SPR_USDT)
 * 交易所币地址： [Trade SPR with USDT : NonKYCcryptocurrency exchange](https://nonkyc.io/market/SPR_USDT)
 * 交易所： [Exbitron](https://exbitron.com/trade?market=SPR-USDT)
 
