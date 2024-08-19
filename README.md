@@ -37,13 +37,21 @@ twitter: https://twitter.com/SpectreNetwrk
 
 * 然后复制到 1panal 容器编排里面设置容器名称即可
 
-* ​
+编排好之后呢容器全部关闭
+
+关闭之后去下载节点文件: 
+
+https://spectre-network.org/downloads/legacy/datadir-rust.zip
+
+解压到节点对应目录，1panel 详情里面有挂在路径，解压到哪里面就可以了
+
+
 
 ## 挖矿
 
 这里推荐使用tnn锄头，因为算力确实增加很多
 
-- 锄头：[spr-tnn-开发者2.5%](https://gitee.com/muaimingjun/spectre-spr-information/releases/tag/v0.3.6.1)
+- 锄头：[Release v0.4.0-dev · spectre-spr/spectre-spr-information (github.com)](https://github.com/spectre-spr/spectre-spr-information/releases/tag/v0.4.0-dev)
 ```bash
   tnn-miner* --spectre --daemon-address node-ip  --port  5555 --wallet spectre:qxxxxxxxxxg --threads 10 --worker-name 矿工名称
 ```
@@ -82,7 +90,7 @@ docker run -itd --name spr  --restart=always   -e w=spectre:xxxxxxxxxxxxxxxxxxxx
 * 交易所币地址： [Trade SPR with USDT : NonKYCcryptocurrency exchange](https://nonkyc.io/market/SPR_USDT)
 * 交易所： [Exbitron](https://exbitron.com/trade?market=SPR-USDT)
 
- 
+
 
 
 
