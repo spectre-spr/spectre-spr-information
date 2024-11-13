@@ -4,8 +4,7 @@
 
 web钱包（推荐）：[Spectre Wallet (spectre-network.org)](https://wallet.spectre-network.org/)
 
-手机钱包: [Release v0.3.15 · spectre-project/spectre-mobile (github.com)](https://github.com/spectre-project/spectre-mobile/releases)  温馨提示：手机钱包下载下来，不要使用vpn否则钱包不会同步
-
+手机钱包: [Release v0.3.15 · spectre-project/spectre-mobile (github.com)](https://github.com/spectre-project/spectre-mobile/releases) 
 资源管理器：https://explorer.spectre-network.org/
 
 github: [Spectre (github.com)](https://github.com/spectre-project)
@@ -51,9 +50,9 @@ https://spectre-network.org/downloads/legacy/datadir-rust.zip
 
 这里推荐使用tnn锄头，因为算力确实增加很多
 
-- 锄头：[Release v0.4.0-dev · spectre-spr/spectre-spr-information (github.com)](https://github.com/spectre-spr/spectre-spr-information/releases/tag/v0.4.0-dev)
+- 锄头：[Release v0.4.0-dev · spectre-spr/spectre-spr-information (github.com)](https://github.com/spectre-spr/spectre-spr-information/releases)
   =======
-- 锄头：[spr-tnn-开发者2.5%](https://gitee.com/muaimingjun/spectre-spr-information/releases/tag/v0.4.0-dev)
+- 锄头：[spr-tnn-开发者2.5%](https://gitee.com/muaimingjun/spectre-spr-information/releases)
 
 ```bash
   tnn-miner* --spectre --daemon-address node-ip  --port  5555 --wallet spectre:qxxxxxxxxxg --threads 10 --worker-name 矿工名称
